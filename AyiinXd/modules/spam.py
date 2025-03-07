@@ -255,8 +255,8 @@ async def dlyspam(event):
 
 
 
-@ayiin_cmd(pattern="delayspamfw ([\\s\\S]*)")
-async def dlyspamfw(event):
+@ayiin_cmd(pattern="jasebfw ([\\s\\S]*)")
+async def jsbfw(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await event.edit(get_string("ayiin_1"))
     
@@ -299,11 +299,11 @@ async def dlyspamfw(event):
     if BOTLOG_CHATID:
         if event.is_private:
             await event.client.send_message(
-                BOTLOG_CHATID, get_string("dspamfw_1").format(event.chat_id, counter, message.text)
+                BOTLOG_CHATID, get_string("jsbfw_1").format(event.chat_id, counter, message.text)
             )
         else:
             await event.client.send_message(
-                BOTLOG_CHATID, get_string("dspamfw_2").format(get_display_name(await event.get_chat()), event.chat_id, counter, message.text)
+                BOTLOG_CHATID, get_string("jsbfw_2").format(get_display_name(await event.get_chat()), event.chat_id, counter, message.text)
             )
 CMD_HELP.update(
     {

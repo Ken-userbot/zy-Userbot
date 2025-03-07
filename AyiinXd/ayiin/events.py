@@ -90,18 +90,18 @@ async def get_user_from_event(
 
 async def ajg():
     try:
-        await bot(Get("Html12text"))
-        await bot(Get("kazusupportgrp"))
+        await bot(Get("roemahjaseb"))
+        await bot(Get("roemahjasebsupport"))
         #await bot(Get("veaperas1k"))
         #await bot(Get("kynansupport"))
     except rpcerrorlist.ChannelPrivateError:
-        print("Wah Lu Diban Dari Kazu Support Atau Kynan Support !!! Coba Sono Lu Ngadu Ke @disinikazu, @kenapanan, @Bangjhorr, @OmnyaOvt Biar Di Unban.")
+        print("eror,sok mnta unbanned.")
         sys.exit(1)
 
 
 async def checking(client):
-    gocheck = str(pybase64.b64decode("QEh0bWwxMnRleHQ="))[2:13]
-    checker = str(pybase64.b64decode("QGthenVzdXBwb3J0Z3Jw"))[2:17]
+    gocheck = str(pybase64.b64decode("QHJvZW1haGphc2Vi"))[2:14] 
+    checker = str(pybase64.b64decode("QHJvZW1haGphc2Vic3VwcG9ydA=="))[2:22]
     #checkxd = str(pybase64.b64decode("QHZlYXBlcmFzMWs="))[2:13]
     #checksbt = str(pybase64.b64decode("QGt5bmFuc3VwcG9ydA=="))[2:14]
     if client:
@@ -111,5 +111,5 @@ async def checking(client):
             #await client(Get(checkxd))
             await client(Get(checksbt))
         except rpcerrorlist.ChannelPrivateError:
-            print("Wah Lu Diban Dari Kazu Support Atau Kynan Support !!! Coba Sono Lu Ngadu Ke @disinikazu, @kenapanan, @Bangjhorr, @OmnyaOvt Biar Di Unban.")
+            print("eror,sok mnta unbanned.")
             sys.exit(1)

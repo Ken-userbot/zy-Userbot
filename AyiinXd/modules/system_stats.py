@@ -109,8 +109,8 @@ async def psu(event):
     help_string += "**Iɴғᴏʀᴍᴀsɪ Mᴇsɪɴ**\n"
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
-    help_string += f"**Pʏ-ᴋᴀᴢᴜ :** `{py_ver}`\n"
-    help_string += f"**ᴋᴀᴢᴜ ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
+    help_string += f"**Pʏ-rmj :** `{py_ver}`\n"
+    help_string += f"**rmj ᴠᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
@@ -187,7 +187,7 @@ async def amireallyalive(alive):
     await alive.edit("👻")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [ᴋᴀᴢᴜ ᴜsᴇʀʙᴏᴛ](https://github.com/ionmusic/Kazu-Userbot)**\n\n"
+        f"**Tʜᴇ [rmj ᴜsᴇʀʙᴏᴛ](https://github.com/Ken-userbot/zy-Userbot/tree/Kazu-Userbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"{emoji} **Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -197,8 +197,8 @@ async def amireallyalive(alive):
         f"{emoji} **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
         f"{emoji} **PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"{emoji} **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
-        f"{emoji} **Pʏ-ᴋᴀᴢᴜ ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"{emoji} **ᴋᴀᴢᴜ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"{emoji} **Pʏ-rmj ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
+        f"{emoji} **rmj ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )

@@ -1,21 +1,21 @@
 {
   "name": "rmj-Userbot",
-  "description": "[rmj-Userbot] Selamat pakai, semoga bermanfaat",
-  "logo": "https://bit.ly/3FaBCce",
+  "description": " pake aja ",
+  "logo": "https://telegra.ph/file62e6065830dd426a/roemah_jaseb.jpg",
   "keywords": ["telegram", "userbot", "rmj-Userbot", "modular", "python"],
-  "repository": "https://github.com/Ken-userbot/zy-Userbot",
+  "repository": "https://github.com/rmjstore/Kazu-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di Grup » https://t.me/kazusupportgrp » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di my.telegram.org",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup »  https://t.me/kazusupportgrp » Lalu ketik /get api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di my.telegram.org",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup »  https://t.me/kazusupportgrp » Lalu ketik /get string",
+      "description": "Dapatkan String Session di strgen bot",
       "required": true
     },
     "HEROKU_APP_NAME": {
